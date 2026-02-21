@@ -2,7 +2,7 @@
 import sys, os
 # Get the absolute path to the parent directory (Hackathongoogle)
 base_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-cactus_src = os.path.join(base_path, "cactus/python/src")
+cactus_src = os.path.join(base_path, "python/src")
 
 sys.path.insert(0, cactus_src)
 os.environ["CACTUS_NO_CLOUD_TELE"] = "1"
